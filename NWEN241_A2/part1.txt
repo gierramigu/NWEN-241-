@@ -1,0 +1,89 @@
+NWEN, Assignment 2 300411917
+
+Part 1: Pointer Concepts 
+
+Task 1
+
+1. 
+
+float number = 5.0;
+float *numbptr = number;
+
+2.
+long int *func1(int, int);
+
+3. 
+(const is a type that can't be changed while its being argued into the method)
+char *func2(const char* test); 
+
+4.
+int *arrIntPoint[20];
+
+5.
+char *strings[] = {"cyan", "magenta, "yellow", "black"};
+
+
+Task 2 
+
+1. 
+Numeric value of the expression &u is 1100
+
+2.
+Numeric value of the expression &v is 1101 since incrementing by 1 would only move by 1 byte
+
+3.
+pv is intially assigned into character A, and uses the memory address of v.
+
+4.
+066 
+
+5.
+C
+
+
+
+Task 3 
+
+1. 
+57 80 
+80 80
+
+2.
+int 1 - It's assignment has been changed from 26 to 57 at the very end of the program hence why its 57.
+int 2 - *int2Ptr gets the address of int2 and returns a point towards it. Which then goes to that 
+address and changes the value of int2 to 62 and makes int2Ptr assigned to int1Ptr. So now int1ptr has
+the address from int2ptr which is int2 with the value of 62. The value is then changed to 80 
+from *int1Ptr.
+*int1Ptr - 80 is assigned to *int1ptr 
+*int2Ptr - Since int2Ptr = int1ptr and then from the next line of code int1Ptr = 80 which is also applies to int2Ptr
+
+
+Task 4 
+
+
+1.
+1102
+
+2.
+1118
+
+3.
+1106
+
+Task 5
+
+1.
+std::cout << seasons[i] << "\n";
+
+2.
+delete[] strPtr;
+
+
+
+
+
+
+
+
+
+
